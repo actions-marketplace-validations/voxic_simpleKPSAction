@@ -37215,7 +37215,7 @@ const core = __webpack_require__(6024);
 const yaml = __webpack_require__(3607)
 
 // Get inputs from Workflow
-const tag = core.getInput('image-tag'); // Tag set on the image in dockerhub
+const tag = core.getInput('tag'); // Tag set on the image in dockerhub
 const kpsApiKey = core.getInput('kps-api-key'); // KPS API key
 const kpsAppId = core.getInput('kps-app-id'); // KPS App ID
 const image = core.getInput('image'); // Image repository and name
