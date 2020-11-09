@@ -20,7 +20,8 @@ This is an example of working with the KPS API and only supports single containe
 
 ### `kps-app-id`
 
-**Required** The application ID in KPS for the deployment to be updated
+**Required** The application ID in KPS for the deployment to be updated. You can fin the APP id in the URL while configuring the application KPS UI.  
+![APP ID](appID.png)
 
 ## Example usage
 
