@@ -1,7 +1,8 @@
-const request = require('../../node_modules/request');
-const core = require('../../node_modules/@actions/core');
-const yaml = require('../../node_modules/js-yaml')
+const request = require('request');
+const core = require('@actions/core');
+const yaml = require('js-yaml')
 
+// Get inputs from Workflow
 const tag = core.getInput('image-tag'); // Tag set on the image in dockerhub
 const kpsApiKey = core.getInput('kps-api-key'); // KPS API key
 const kpsAppId = core.getInput('kps-app-id'); // KPS App ID
