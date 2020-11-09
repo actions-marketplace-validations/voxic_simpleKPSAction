@@ -1,0 +1,17 @@
+{
+  "name": "simpleKPSAction",
+  "version": "1.0.0",
+  "description": "This action updates a deployment of a application deployed on Nutanix [Karbon Platform Services](https://www.nutanix.com/products/karbon/platform-services)(KPS).",
+  "main": "push-to-kps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "js-yaml": "^3.14.0",
+    "request": "^2.88.2"
+  }
+}

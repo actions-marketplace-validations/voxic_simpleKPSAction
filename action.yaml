@@ -1,0 +1,19 @@
+name: 'simpleKPSAction'
+description: 'This is an example of working with the KPS API and only supports single container application deployments.'
+inputs:
+  tag:  # id of input
+    description: 'tag of docker image'
+    required: true
+    default: 'main'
+  image: # name of image
+    description: 'container image'
+    required: true
+  kps-api-key: # API key for KPS api
+    description: 'API key for KPS'
+    required: true
+  kps-app-id: #application ID to update
+    description: 'KPS app ID'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
