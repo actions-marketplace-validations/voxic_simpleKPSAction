@@ -69,7 +69,7 @@ jobs:
         id: tag
         uses: dawidd6/action-get-tag@v1 # Community actio to get a tag from a PUSH
       - name: Call KPS API
-        uses: voxic/simpleKPSAction
+        uses: voxic/simpleKPSAction@v1
         with:
             tag: ${{steps.tag.outputs.tag}}
             image: voxic/kps-simple
